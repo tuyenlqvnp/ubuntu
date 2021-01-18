@@ -1,0 +1,203 @@
+ htop
+  416  cat /var/mail/root
+  417  history | grep "tail -f"
+  418  vi /var/mail/root
+  419  mail
+  420  cd /var/spool/mail
+  421  ls
+  422  cat hddt@vdsg-invoice.vn
+  423  cat root
+  424  cat hddt@vdsg-invoice.vn
+  425  less +G /var/spool/mail/root
+  426  free
+  427  cd /var/run/opendkim/
+  428  ls
+  429  sudo apt-get install opendkim opendkim-tools
+  430  mail
+  431  apt install mailutils
+  432  mail
+  433  cat /var/mail/root
+  434  mkdir -p /etc/mail/dkim-keys/vdsg-invoice.vn
+  435  cd /etc/mail/dkim-keys/vdsg-invoice.vn
+  436  opendkim-genkey -t -s mail -d vdsg-invoice.vn
+  437  ls
+  438  cat mail.private
+  439  cat mail.txt
+  440  opendkim-genkey -b 1024 -t -s mail -d vdsg-invoice.vn
+  441  cat mail.private
+  442  cat mail.txt
+  443  cd /etc/mail/
+  444  ls
+  445  mc
+  446  ls
+  447  sudo apt-install opendkim
+  448  sudo apt-get install opendkim
+  449  cd /etc/mail/dkim-keys/vdsg-invoice.vn/
+  450  ls
+  451  opendkim-genkey -b 1024 -t -s mail -d vdsg-invoice.vn
+  452  ls
+  453  vi /etc/mail/dkim.key
+  454  vi /etc/mail/dkim-keys/vdsg-invoice.vn/mail.private
+  455  vi /etc/mail/dkim.key
+  456  vi /etc/opendkim.conf
+  457  vi /etc/opendkim.conf
+  458  ls
+  459  vi mail.txt
+  460  vi /etc/opendkim.conf
+  461  vi /etc/postfix/main.cf
+  462  ls
+  463  cat mail.txt
+  464  vi /etc/postfix/main.cf
+  465  service opendkim restart
+  466  vi /etc/opendkim.conf
+  467  service opendkim restart
+  468  vi /etc/opendkim.conf
+  469  sudo service opendkim restart
+  470  vi /etc/opendkim.conf
+  471  sudo service opendkim restart
+  472  journalctl -xe
+  473  sudo service opendkim restart
+  474  journalctl -xe
+  475  sudo service opendkim restart
+  476  ls
+  477  cd /etc/mail/dkim-keys/vdsg-invoice.vn/
+  478  opendkim-genkey -b 1024 -t -s mail -d vdsg-invoice.vn
+  479  journalctl -xe
+  480  sudo service opendkim restart
+  481  vi /etc/opendkim.conf
+  482  sudo service opendkim restart
+  483  vi /etc/opendkim.conf
+  484  sudo service opendkim restart
+  485  vi /etc/mail/dkim.key
+  486  vi /etc/opendkim.conf
+  487  sudo service opendkim restart
+  488  vi /etc/opendkim.conf
+  489  sudo service opendkim restart
+  490  vi /etc/opendkim.conf
+  491  sudo service opendkim restart
+  492  vi /etc/opendkim.conf
+  493  sudo service opendkim restart
+  494  vi /etc/opendkim.conf
+  495  sudo service opendkim restart
+  496  journalctl -xe
+  497  vi /etc/opendkim.conf
+  498  sudo service opendkim restart
+  499  journalctl -xe
+  500  vi /etc/opendkim.conf
+  501  sudo service opendkim restart
+  502  vi /etc/opendkim.conf
+  503  sudo service opendkim restart
+  504  vi /etc/opendkim.conf
+  505  sudo service opendkim restart
+  506  vi /etc/opendkim.conf
+  507  sudo service opendkim restart
+  508  vi /etc/opendkim.conf
+  509  sudo service opendkim restart
+  510  vi /etc/opendkim.conf
+  511  sudo service opendkim restart
+  512  vi /etc/opendkim.conf
+  513  sudo service opendkim restart
+  514  vi /etc/opendkim.conf
+  515  sudo service opendkim restart
+  516  vi /etc/opendkim.conf
+  517  sudo service opendkim restart
+  518  vi /etc/opendkim.conf
+  519  vi /etc/dkimkeys/dkim.key
+  520  vi /etc/opendkim.conf
+  521  sudo service opendkim restart
+  522  vi /etc/opendkim.conf
+  523  sudo service opendkim restart
+  524  vi /etc/opendkim.conf
+  525  sudo service opendkim restart
+  526  vi /etc/opendkim.conf
+  527  sudo service opendkim restart
+  528  "journalctl -xe
+  529  journalctl -xe
+  530  vi /etc/opendkim.conf
+  531  sudo service opendkim restart
+  532  journalctl -xe
+  533  sudo service opendkim restart
+  534  vi /etc/opendkim.conf
+  535  sudo service opendkim restart
+  536  vi /etc/opendkim.conf
+  537  sudo service opendkim restart
+  538  vi /etc/opendkim.conf
+  539  sudo service opendkim restart
+  540  vi /etc/opendkim.conf
+  541  sudo service opendkim restart
+  542  vi /etc/opendkim.conf
+  543  sudo service opendkim restart
+  544  vi /etc/postfix/main.cf
+  545  vi /etc/opendkim.conf
+  546  sudo service opendkim restart
+  547  vi /etc/opendkim.conf
+  548  sudo service opendkim restart
+  549  vi /etc/opendkim.conf
+  550  sudo service opendkim restart
+  551  vi /etc/opendkim.conf
+  552  vi /etc/mail/dkim-keys/vdsg-invoice.vn/mail.private
+  553  vi /etc/opendkim.conf
+  554  cd /etc/mail/dkim-keys/vdsg-invoice.vn/
+  555  ls
+  556  vi /etc/mail/dkim.key
+  557  vi /etc/opendkim.conf
+  558  sudo service opendkim restart
+  559  vi /etc/opendkim.conf
+  560  sudo service opendkim restart
+  561  vi /etc/default/opendkim
+  562  cd /var/run/opendkim/
+  563  ls
+  564  vi /etc/default/opendkim
+  565  vi /etc/opendkim.conf
+  566  lsb_release -a
+  567  cd ..
+  568  cd /etc/
+  569  ls
+  570  cd ..
+  571  sudo mkdir -p /etc/opendkim/keys
+  572  cd /etc/opendkim/keys
+  573  sudo opendkim-genkey -b 1024 -h rsa-sha256 -r -s smtp -d vdsg-invoice.vn -v
+  574  ls
+  575  sudo nano /etc/opendkim/trusted.hosts
+  576  sudo vi /etc/opendkim/trusted.hosts
+  577  sudo chown -R opendkim:opendkim /etc/opendkim
+  578  sudo chmod go-row /etc/opendkim/keys
+  579  sudo chmod u=rw,go=r /etc/opendkim.conf
+  580  sudo vi /etc/opendkim.conf
+  581  /etc/init.d/opendkim restart
+  582  sudo cat /etc/opendkim/keys/smtp.txt
+  583  opendkim-testkey -d vdsg-invoice.vn -s smtp
+  584  sudo /etc/init.d/postfix restart
+  585  opendkim-testkey -d vdsg-invoice.vn -s smtp
+  586  sudo opendkim-genkey -b 2048  -r -s smtp -d vdsg-invoice.vn -v
+  587  ls
+  588  cat smtp.txt
+  589  sudo opendkim-genkey -b 1024  -r -s smtp -d vdsg-invoice.vn -v
+  590  cat smtp.txt
+  591  sudo /etc/init.d/postfix restart
+  592  /etc/init.d/opendkim restart
+  593  sudo /etc/init.d/postfix restart
+  594  vi /etc/postfix/main.cf
+  595  vi /etc/opendkim.conf
+  596  vi /etc/opendkim/trusted.hosts
+  597  sudo /etc/init.d/postfix restart
+  598  /etc/init.d/opendkim restart
+  599  sudo service opendkim restart
+  600  vi /etc/opendkim/trusted.hosts
+  601  vi /etc/opendkim.conf
+  602  sudo service opendkim restart
+  603  sudo service postfix restart
+  604  history | grep "cp"
+  605  cp /etc/postfix/main.cf /usr/src/ubuntu/
+  606  vi cd /usr/src/ubuntu/
+  607  history | grep "cp"
+  608  cd /usr/src/ubuntu/
+  609  ls
+  610  vi main.cf
+  611  git add main.cf
+  612  git commit -m "config opendkim"
+  613  history | grep "git push"
+  614  git push - u origin main
+  615  git push -u origin main
+  616  history
+
