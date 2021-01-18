@@ -1,0 +1,2 @@
+smtp._domainkey	IN	TXT	( "v=DKIM1; h=sha256; k=rsa; s=email; "
+	  "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDFdRPUfDQdgqMeXYSO8XFWQPpKbXx6FyS9lrfXCaI87LUXPAkpYiNxFcgXhClyOalGmxA61zR8nXzc1Iok6rABdCneu0CqdbesUmn+XYdtAXZIB7Z4FYB4q72nb47MGViFJ0k7jqTAm4mv/RWNcNW7p5pE0R3PqgCwGQ2iwkw4xwIDAQAB" )  ; ----- DKIM key smtp for vdsg-invoice.vn
